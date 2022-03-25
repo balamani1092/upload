@@ -20,7 +20,10 @@ public class Uploadfile {
 		driver.get("http://www.filehosting.org");
 		WebElement uploadButton = driver.findElement(By.name("upload_file"));
 		uploadButton.click();
-            uploadFile("D:\\emailtemplate.docx");
+        
+		uploadButton.click();
+		
+		uploadFile("D:\\emailtemplate.docx");
     }
 
 
