@@ -25,7 +25,7 @@ public class Uploadfile {
 		
 		uploadFile("D:\\emailtemplate.docx");
 		
-//		please check git for this update
+//		please check git for this updated
     }
 
 
